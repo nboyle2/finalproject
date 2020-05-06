@@ -1,0 +1,24 @@
+.navbar {
+  background-color: gray;
+  overflow: hidden;
+}
+
+.navbar a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Arial;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: lightgray;
+  color: black;
+}
+
+.navbar a.selected {
+  background-color: red;
+  color: white;
+}
